@@ -1,0 +1,92 @@
+.container{
+    padding: 50px 0;
+}
+p{
+    padding: 0 0 59px 44px;
+    font-size: 28px;
+    word-spacing: 9px;
+    font-weight: 600;
+    color: #00000087;
+}
+
+form{
+    height: 300px;
+}
+.inp{
+    padding-bottom: 55px;
+}
+input{
+    width: 80%;
+    height: 48px;
+    border: 0;
+    padding-left: 13px;
+    border-bottom: 1px solid #80808070;
+    position: relative;
+}
+label{
+    position: relative;
+    right: 500px;
+    top: 5px;
+    color: #80808070;
+    transition-duration: 0.5s;
+}
+input:focus{
+    outline: none;
+    border-bottom-color: darkcyan;
+    color: #000;
+}
+input:focus ~ label,
+input:valid ~ label{
+    right: 510px;
+    top: -27px;
+    color: darkcyan;
+    font-size: 12px;
+}
+
+textarea{
+    width: 80%;
+    height: 150px;
+    border: 0;
+    border-bottom: 1px solid #80808070;
+    color: #808080b8;
+    padding-left: 16px;
+}
+.lab{
+    position: relative;
+    top: -110px;
+    color: #80808070;
+    transition-duration: 0.5s;
+}
+.txt-area{
+    position: relative;
+    right: -73px;
+}
+textarea:focus{
+    outline: 0;
+    border-bottom-color: darkcyan;
+    color: #000;
+}
+textarea:focus .lab,
+textarea:valid .lab{
+    right: 510px;
+    top: -153px;
+    color: darkcyan;
+    font-size: 12px;
+}
+
+button{
+    background: #fff;
+    color: darkcyan;
+    border: 2px solid darkcyan;
+    width: 134px;
+    height: 46px;
+    font-size: 25px !important;
+    border-radius: 7px !important;
+    position: relative;
+    left: 1055px;
+    top: 22px
+}
+button:focus{
+    background-color: darkcyan;
+    color: #fff;
+}
