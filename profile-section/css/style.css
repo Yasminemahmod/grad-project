@@ -1,0 +1,229 @@
+body {
+    background-color: #8080800f;
+}
+
+
+/* Start body of section */
+.u-photo{
+    width: 300px;
+    height: 300px;
+}
+
+.cont {
+    width: 85%;
+    margin: auto;
+}
+
+h2 {
+    color: midnightblue;
+    letter-spacing: 6px;
+}
+
+.cont .col-7 {
+    box-shadow: -2px 5px 42px -11px #80808082;
+    padding: 0 0 0 27px;
+    height: 373px;
+}
+
+.cont .col-7 label{
+    width: 12%;
+    color: #0000008c;
+}
+
+.cont .col-7 input{
+    width: 80%;
+    margin: 12px 0;
+    border: 0;
+    padding: 7px 14px;
+    border-bottom: 2px #80808085 solid;
+    border-radius: 7px;
+    outline: 0;
+    /* position: relative; */
+}
+
+.cont .col-7 .form-btn{
+    position: relative;
+}
+
+.cont .col-7 .btn2::after{
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    width: 30px;
+    height: 78px;
+    opacity: 0.2;
+    transform: rotate(30deg);
+    left: 232px;
+    top: -15px;
+    z-index: 0;
+    transition-duration: 0.3s;
+}
+.cont .col-7 .btn2:hover .btn2::after{
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    width: 30px;
+    height: 78px;
+    opacity: 0.2;
+    transform: rotate(30deg);
+    left: 485px;
+    top: -15px;
+    z-index: 0;
+    transition-duration: 0.3s;
+}
+
+.cont .col-4 .input-group {
+    opacity: 0;
+}
+
+form .btn2 {
+    padding: 11px 50px;
+    font-weight: 600;
+}
+
+.cont .col-4 .u-photo {
+    width: 300px;
+    height: 300px;
+    border: 0;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    top: -39px;
+    overflow: hidden;
+}
+
+.cont .col-4 img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.cont .col-4 .icon {
+    position: absolute;
+    bottom: 286px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    top: 188px;
+    left: 213px;
+    background-color: lightgray;
+    border: 7px solid white;
+} 
+
+.cont i{
+    border: 0;
+    background-color: transparent;
+    font-size: 35px;
+    position: absolute;
+    right: 11px;
+    top: 10px;
+}
+
+.cont .col-4 .inp {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 0;
+    overflow: hidden;
+    position: relative;
+    left: 218px;
+    bottom: 129px;
+}
+
+.cont .col-4 input {
+    width: 224px;
+    height: 130%;
+    position: absolute;
+    top: -9px;
+    right: -50px;
+    color: transparent;
+    background-color: transparent; 
+    bottom: 178px;
+    right: -22px;
+    z-index: 2;
+    border: 0;
+}
+
+.btn2{
+    background-color: darkcyan;
+    border-color: darkcyan;
+}
+
+
+
+/* Start footer */
+footer{
+    display: flex;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+}
+
+.logo img{
+    width: 44px;
+    padding-top: 6px;
+}
+
+footer .icons .up {
+    letter-spacing: 0;
+    color: #808080d1;
+}
+
+footer .icons .down {
+    color: white;
+    font-size: 21px;
+    letter-spacing: 35px;
+}
+
+footer p{
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+    font-style: normal;
+    color: gray;
+}
+
+footer .icons #pin{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px 21px 23px 5px;
+    margin: 0px 0px;
+    margin: -1px 9px 1px;
+    width: 10px;
+    height: 14px;
+    position: relative;
+    right: 19px;
+    transition-duration: 0.3s;
+}
+
+footer .icons #pin:hover{
+    background-color: #0d6efd;
+}
+
+footer .icons a {
+    color: white;
+    transition-duration: 0.3s;
+}
+
+footer .down a:hover{
+    color: #0d6efd;
+}
+/* End footer */
+
+
+
+
+
+
+
+
+
+.form-input-2 input{
+    display: none;
+}
+.form-input-2 i{
+    position: relative;
+    top: 61px;
+    left: 89px;
+}
