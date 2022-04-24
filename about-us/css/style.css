@@ -1,0 +1,103 @@
+.heading{
+    font-size: xxx-large;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    font-weight: 600;
+    text-align: center;
+    padding: 55px 0;
+    background: #d3d3d35e;
+    color: darkcyan;
+    /* color: gray; */
+}
+.heading::before{
+    content: "";
+    position: absolute;
+    width: 61px;
+    border: 2px solid #000000b5;
+    top: 100px;
+    left: 529px;
+}
+span::before{
+    content: "";
+    position: absolute;
+    width: 33px;
+    border: 1px solid #000000b5;
+    top: 95px;
+    left: 557px;
+}
+.heading::after{
+    content: "";
+    position: absolute;
+    width: 61px;
+    border: 2px solid #000000b5;
+    top: 100px;
+    right: 532px;
+}
+span::after{
+    content: "";
+    position: absolute;
+    width: 33px;
+    border: 1px solid #000000b5;
+    top: 95px;
+    right: 560px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 74%;
+    height: 541px;
+}
+
+/* Start footer */
+footer{
+    display: flex;
+    text-align: center;
+    bottom: 0;
+}
+.logo{
+    width: 44px !important;
+    padding-top: 6px;
+    height: 45px !important;
+}
+footer .icons .up {
+    letter-spacing: 0;
+    color: #808080d1;
+}
+footer .icons .down {
+    color: white;
+    font-size: 21px;
+    letter-spacing: 35px;
+}
+footer .foot-par{
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+    font-style: normal;
+    color: gray;
+}
+footer .icons #pin{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px 21px 23px 5px;
+    margin: 0px 0px;
+    margin: -1px 9px 1px;
+    width: 10px;
+    height: 14px;
+    position: relative;
+    right: 19px;
+    transition-duration: 0.3s;
+}
+footer .icons #pin:hover{
+    background-color: #0d6efd;
+}
+footer .icons a {
+    color: white;
+    transition-duration: 0.3s;
+}
+footer .down a:hover{
+    color: #0d6efd;
+}
+/* End footer */
