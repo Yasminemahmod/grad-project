@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Upload img */
+input{
+    width: 160px;
+    height: 50px;
+    position: relative;
+    left: 41px;
+    top: 30px;
+    opacity: 0;
+}
+.img-lab{
+    border: 1px solid #80808085;
+    width: 550px;
+    height: 50px;
+    border-radius:7px;
+    position: absolute;
+    left: 41px;
+    top: 30px;
+}
+label{
+    width: 160px;
+    height: 48px;
+    position: absolute;
+    margin: 0;
+    left: -1px;
+    top: 0px;
+    text-align: center;
+    padding-top: 6px;
+    background: darkcyan;
+    color: #fff;
+    border-radius: 7px 0 0 7px;
+}
+label span{
+    margin-left: 6px;
+    position: relative;
+    top: 2px;
+    font-size: 20px;
+}
+/* Upload img */
+
+
+
+/* Start of images */
+.cont{
+    position: relative;
+    top: 97px;
+}
+.cont .row{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.cont .row .img{
+    width: calc(93%/3);
+    position: relative;
+    margin: 40px 0;
+}
+.cont .row .overlay{
+    width: 93%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    transition-duration: 0.3s;
+    
+}
+.cont .row img{
+    width: 100%;
+    height: 300px;
+}
+.cont .row p{
+    width: 70%;
+    height: 50px;
+    border: 1px solid darkcyan;
+    text-align: center;
+    font-size: 28px;
+    font-family: initial;
+    letter-spacing: 3px;
+    padding-top: 4px;
+    background: darkcyan;
+    color: #fff;
+    border-radius: 19px;
+    position: absolute;
+    left: 48px;
+    top: 125px;
+    transform: scaleX(0);
+    transition-duration: 0.3s;
+}
+.cont .row .img:hover .overlay{
+    background: #000;
+    opacity: 0.5;
+}
+.cont .row .img:hover P{
+    cursor: pointer;
+    transform: scaleX(1);
+}
+/* End of images */
+
+
+
+/* Start of pagination */
+.pagnation {
+    display: flex;
+    justify-content: space-between;
+    width: 454px;
+    padding: 5px 0 5px 0;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    top: 97px;
+}
+.button {
+    display: inline-block;
+    width: 77px;
+    height: 42px;
+    text-align: center;
+    background: #808080bf;
+    color: #fff;
+    border-radius: 40px;
+    font-family: initial;
+    padding-top: 5px;
+    border: 0;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: inherit;
+    transition: 0.3s ease;
+}
+.button:active {
+    background: darkcyan;
+    color: #fff;
+}
+.bt-1:hover{
+    transform: translateX(-5px);
+    background: darkcyan;
+}
+.bt-2:hover{
+    transform: translateX(5px);
+    background: darkcyan;
+}
+.btn {
+    width: 35px;
+    height: 35px;
+    background: #808080bf !important;
+    color: #fff !important;
+    border: 0;
+    border-radius: 50% !important;
+    padding: 0 !important;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.active {
+    width: 35px;
+    height: 35px;
+    background: darkcyan;
+    border: 0;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn:focus {
+    background: darkcyan !important;
+    color: #fff;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.25) !important;
+}
+.btn:focus .active{
+    background: #808080bf !important;
+}
+.btn:active {
+    background: darkcyan !important;
+}
+.images {
+    display: none;
+    margin: 20px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* End of pagination */
+
+
+
+
+/* Start footer */
+footer{
+    display: flex;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+}
+.logo img{
+    width: 44px;
+    padding-top: 6px;
+}
+footer .icons .up {
+    letter-spacing: 0;
+    color: #808080d1;
+}
+footer .icons .down {
+    color: white;
+    font-size: 21px;
+    letter-spacing: 35px;
+}
+footer p{
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+    font-style: normal;
+    color: gray;
+}
+footer .icons #pin{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px 21px 23px 5px;
+    margin: 0px 0px;
+    margin: -1px 9px 1px;
+    width: 10px;
+    height: 14px;
+    position: relative;
+    right: 19px;
+    transition-duration: 0.3s;
+}
+footer .icons #pin:hover{
+    background-color: #0d6efd;
+}
+footer .icons a {
+    color: white;
+    transition-duration: 0.3s;
+}
+footer .down a:hover{
+    color: #0d6efd;
+}
+/* End footer */
